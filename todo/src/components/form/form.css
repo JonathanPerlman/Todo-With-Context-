@@ -1,0 +1,42 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+form p {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+form input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: border 0.3s;
+}
+
+form input:focus {
+    border-color: #66b3ff;
+    outline: none;
+}
+
+form button {
+    background-color: #66b3ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #3385ff;
+}
