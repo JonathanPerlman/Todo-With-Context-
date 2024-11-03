@@ -18,7 +18,7 @@ const Form = () => {
 
   return (
     <form onSubmit={handleForm}>
-      <p>Add todo</p>
+      <p>To-Do-List</p>
       <input type="text" placeholder="Enter your task" value={inputValue} onChange={(e) => setInputValue(e.target.value)}/>
       <button>Add</button>
     </form>

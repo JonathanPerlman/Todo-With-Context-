@@ -40,7 +40,7 @@ export const TodoProvider: React.FC<TodoProviderProps> = ({ children }) => {
 
     const updateToDo = (id: number) => {
         setTodos(todos.map((t) => 
-            t.id === id ? { ...t, completed: true } : t
+            t.id === id ? { ...t, completed: !t.completed } : t
         ));
     };
 
