@@ -1,6 +1,5 @@
-import { FC, useContext } from "react"
+import { FC } from "react"
 import { useToDo } from "../../context/todoContext"
-import ToDoList from "../toDoList/toDoList"
 import "./toDo.css"
 
 

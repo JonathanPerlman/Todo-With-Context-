@@ -1,4 +1,3 @@
-import React from 'react'
 import Form from './components/form/form'
 import ToDoList from './components/toDoList/toDoList'
 

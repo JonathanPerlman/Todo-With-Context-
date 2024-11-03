@@ -1,4 +1,3 @@
-import { useContext } from "react"
 import {  useToDo } from "../../context/todoContext"
 import ToDo from "../toDo/toDo"
 import "./toDoList.css"
